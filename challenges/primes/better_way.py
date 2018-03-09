@@ -30,14 +30,14 @@ def prime_factorization(n):
     return fits
 
 
-def getFactors(n, prime_factors=None):
+def get_factors(n, prime_factors=None):
     fits = []
     if(prime_factors is not None):
         fits = prime_factors
     else:
         fits = prime_factorization(n)
-    factors = {reduce(lambda x, y: x*y, set_)
-               for set_ in combinations(fits, 2)}
+    factors = {reduce(lambda x, y: x*y, set_) for n in range(2, len(fits))
+               for set_ in combinations(fits, n)}
     factors.update([1, n])
     return sorted(factors)
 
@@ -51,7 +51,7 @@ else:
     if(num < 0):
         neg, num = -1, abs(num)
     prime_factors = prime_factorization(num)
-    factors = list(getFactors(21, prime_factors))
+    factors = list(get_factors(21, prime_factors))
     prime_factors[0] *= neg
     print('{} ='.format(neg*num), ' x '.join(str(p) for p in prime_factors))
 

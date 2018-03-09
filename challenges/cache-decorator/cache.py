@@ -22,4 +22,12 @@ def fib(n):
     return fib(n-1) + fib(n-2)
 
 
-print(fib(35))
+def dp_fib(n):
+    prev, forward = 0, 1
+    for i in range(n):
+        prev, forward = forward, prev+forward
+    return prev
+
+
+print(fib(8))
+print(dp_fib(8))

@@ -1,0 +1,81 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+add_one	../challenges\add_one\add_one.py	/^def add_one(number):$/;"	kind:function	line:1
+add_one.py	../challenges\add_one\add_one.py	1;"	kind:file	line:1
+add_up	../challenges\subsets-add-up-to-n\add_up.py	/^def add_up(li, n):$/;"	kind:function	line:1
+add_up.py	../challenges\subsets-add-up-to-n\add_up.py	1;"	kind:file	line:1
+better_way.py	../challenges\primes\better_way.py	1;"	kind:file	line:1
+bubble.py	../sorting\integer\bubble.py	1;"	kind:file	line:1
+bucket.py	../sorting\integer\bucket.py	1;"	kind:file	line:1
+bucket_sort	../sorting\integer\bucket.py	/^def bucket_sort(data):$/;"	kind:function	line:1
+cache	../challenges\cache-decorator\cache.py	/^def cache(function):$/;"	kind:function	line:4
+cache.py	../challenges\cache-decorator\cache.py	1;"	kind:file	line:1
+change	../challenges\coin-problem\dpcoin.py	/^change = 19$/;"	kind:variable	line:13
+closestk	../challenges\closest-k-points-to-center\kpoints.py	/^def closestk(points, k):$/;"	kind:function	line:4
+coins	../challenges\coin-problem\dpcoin.py	/^coins = [2, 5, 8]$/;"	kind:variable	line:12
+combinations	../challenges\primes\better_way.py	/^from itertools import combinations$/;"	kind:namespace	line:1
+comp.py	../challenges\list comprehension\comp.py	1;"	kind:file	line:1
+compress	../challenges\primes\prime_factorization.py	/^from itertools import compress$/;"	kind:namespace	line:3
+dist	../challenges\closest-k-points-to-center\kpoints.py	/^    def dist(tupl): return math.hypot(*tupl)$/;"	kind:function	line:5
+dp_fib	../challenges\cache-decorator\cache.py	/^def dp_fib(n):$/;"	kind:function	line:25
+dpcoin.py	../challenges\coin-problem\dpcoin.py	1;"	kind:file	line:1
+eratosthenes_sieve.py	../challenges\primes\eratosthenes_sieve.py	1;"	kind:file	line:1
+exit	../challenges\primes\prime_factorization.py	/^from sys import exit$/;"	kind:namespace	line:4
+factors	../challenges\primes\better_way.py	/^    factors = list(getFactors(21, prime_factors))$/;"	kind:variable	line:54
+factors	../challenges\primes\prime_factorization.py	/^    factors = {1}$/;"	kind:variable	line:40
+fib	../challenges\cache-decorator\cache.py	/^def fib(n):$/;"	kind:function	line:19
+final	../challenges\primes\prime_factorization.py	/^    final = list((factors))$/;"	kind:variable	line:44
+fizbuzz	../challenges\fizzbuzz\fizzbuzz.py	/^def fizbuzz(k):$/;"	kind:function	line:1
+fizzbuzz.py	../challenges\fizzbuzz\fizzbuzz.py	1;"	kind:file	line:1
+gen	../challenges\generators\generators.py	/^def gen(till):$/;"	kind:function	line:1
+gen	../challenges\list comprehension\comp.py	/^gen = (n**2 for n in range(10))$/;"	kind:variable	line:1
+generators.py	../challenges\generators\generators.py	1;"	kind:file	line:1
+getFactors	../challenges\primes\better_way.py	/^def getFactors(n, prime_factors=None):$/;"	kind:function	line:33
+get_primes	../challenges\primes\better_way.py	/^def get_primes(n):$/;"	kind:function	line:5
+given	../challenges\subsets-of-set\subset.py	/^given = [1, 2, 3]$/;"	kind:variable	line:12
+i	../challenges\primes\prime_factorization.py	/^    i = 0$/;"	kind:variable	line:32
+items	../challenges\dp-napsack\napsack.py	/^items = [(10, 1), (2, 3), (500, 5)]$/;"	kind:variable	line:22
+kpoints.py	../challenges\closest-k-points-to-center\kpoints.py	1;"	kind:file	line:1
+l	../challenges\primes\prime_factorization.py	/^        l = list(bin(i)[2:].zfill(len(res)))$/;"	kind:variable	line:42
+li	../challenges\list comprehension\comp.py	/^li = [(n, m) for n in range(10) for m in range(10)]$/;"	kind:variable	line:5
+li	../challenges\subsets-add-up-to-n\add_up.py	/^li = [0, 2, 4, 6, 8, 8, 10, 16]$/;"	kind:variable	line:16
+math	../challenges\closest-k-points-to-center\kpoints.py	/^import math$/;"	kind:namespace	line:1
+math	../challenges\primes\eratosthenes_sieve.py	/^import math$/;"	kind:namespace	line:1
+math	../challenges\primes\prime_factorization.py	/^import math$/;"	kind:namespace	line:1
+min_coins	../challenges\coin-problem\dpcoin.py	/^def min_coins(coins, change):$/;"	kind:function	line:1
+most_value	../challenges\dp-napsack\napsack.py	/^def most_value(items, max_weight):$/;"	kind:function	line:1
+n	../challenges\primes\eratosthenes_sieve.py	/^n = int(input("Prime numbers from 0 to ...? "))$/;"	kind:variable	line:3
+n	../challenges\primes\prime_factorization.py	/^        n = int(input("Prime factorization of what number? "))$/;"	kind:variable	line:9
+n	../challenges\primes\prime_factorization.py	/^n = 1$/;"	kind:variable	line:5
+n	../challenges\primes\prime_factorization.py	/^n = abs(n)$/;"	kind:variable	line:19
+napsack.py	../challenges\dp-napsack\napsack.py	1;"	kind:file	line:1
+neg	../challenges\primes\better_way.py	/^    neg = 1$/;"	kind:variable	line:49
+negative	../challenges\primes\prime_factorization.py	/^    negative = -1$/;"	kind:variable	line:18
+negative	../challenges\primes\prime_factorization.py	/^negative = 1$/;"	kind:variable	line:6
+num	../challenges\primes\better_way.py	/^num = int(input("What factorization do you desire sire? "))$/;"	kind:variable	line:45
+number	../challenges\add_one\add_one.py	/^number = [1, 2, 3, 3]$/;"	kind:variable	line:16
+number	../challenges\add_one\add_one.py	/^number = [9, 9, 9, 9]$/;"	kind:variable	line:14
+params	../challenges\password\password_three_lines.py	/^params = {'weak': [0, 6, 8, 0, 0], 'medium': [$/;"	kind:variable	line:1
+password_three_lines.py	../challenges\password\password_three_lines.py	1;"	kind:file	line:1
+points	../challenges\closest-k-points-to-center\kpoints.py	/^points = [(1, 2), (8, 1), (4, 5), (8, 2)]$/;"	kind:variable	line:9
+prime_factorization	../challenges\primes\better_way.py	/^def prime_factorization(n):$/;"	kind:function	line:15
+prime_factorization.py	../challenges\primes\prime_factorization.py	1;"	kind:file	line:1
+prime_factors	../challenges\primes\better_way.py	/^    prime_factors = prime_factorization(num)$/;"	kind:variable	line:53
+primes	../challenges\primes\prime_factorization.py	/^primes = [x for x in range(2,n+1) if vals[x]]$/;"	kind:variable	line:26
+reduce	../challenges\primes\better_way.py	/^from functools import reduce$/;"	kind:namespace	line:2
+reduce	../challenges\primes\prime_factorization.py	/^from functools import reduce$/;"	kind:namespace	line:2
+res	../challenges\primes\prime_factorization.py	/^    res = [n]$/;"	kind:variable	line:33
+subset.py	../challenges\subsets-of-set\subset.py	1;"	kind:file	line:1
+subsets	../challenges\subsets-of-set\subset.py	/^def subsets(given):$/;"	kind:function	line:1
+sys	../sorting\integer\bucket.py	/^    import sys$/;"	kind:namespace	line:15
+type	../challenges\password\password_three_lines.py	/^type = input($/;"	kind:variable	line:3
+vals	../challenges\primes\eratosthenes_sieve.py	/^vals = [True for i in range(n+2)]$/;"	kind:variable	line:4
+vals	../challenges\primes\prime_factorization.py	/^vals = [True for i in range(n+2)]$/;"	kind:variable	line:20
+value	../challenges\dp-napsack\napsack.py	/^    def value(tupl_list): return sum(tupl[0] for tupl in tupl_list)$/;"	kind:function	line:5
+weight	../challenges\dp-napsack\napsack.py	/^    def weight(tupl_list): return sum(tupl[1] for tupl in tupl_list)$/;"	kind:function	line:7
+wrapper	../challenges\cache-decorator\cache.py	/^    def wrapper(*args):$/;"	kind:function	line:8
+wraps	../challenges\cache-decorator\cache.py	/^from functools import wraps$/;"	kind:namespace	line:1
